@@ -16,9 +16,9 @@
 📒 **Do Checkout my Kaggle Notebooks**
 
 - [Anomaly Detection in Multivariate Time-Series](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-in-multivariate-time-series)
-- [Anomaly Detection: ECG | Autoencoders](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-ecg-autoencoders)
+- [Anomaly Detection: ECG - Autoencoders](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-ecg-autoencoders)
 - [Anomaly Detection: Expedia Hotel](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-expedia-hotel)
-- [Anomaly Detection: Sensors | VAR](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-sensors-var)
+- [Anomaly Detection: Sensors - VAR](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-sensors-var)
 
 <h2> Problem Statement 1️⃣: ECG</h2>
 
