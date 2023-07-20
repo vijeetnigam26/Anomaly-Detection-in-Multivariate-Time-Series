@@ -1,9 +1,8 @@
 <h2 align="center"> 🕵🏻Anomaly Detection in 📈Multivariate ⏳Time-Series </h2>
 
-
-
-![](https://www.datarobot.com/wp-content/uploads/2020/06/Introducing-Automated-Time-Series-Anomaly-Detection_blog_Image_v.1.0.png)
-
+<p align="center">
+  <img src="https://www.datarobot.com/wp-content/uploads/2020/06/Introducing-Automated-Time-Series-Anomaly-Detection_blog_Image_v.1.0.png" height=55% width=55% />
+</p> 
 
 •	Detected Data Anomalies/Outliers in 3 different Multivariate Time Series Data Sets related to [**Health Care**](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-ecg-autoencoders), [**Tourism**](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-expedia-hotel), and [**Transportation Sectors**](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-sensors-var).
 
@@ -27,9 +26,9 @@
 
 An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats.
 
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/ecg.webp)
-
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/ecg.webp" height=55% width=55% />
+</p> 
 
 <h3> 🥅 Autoencoders</h3>
 
@@ -41,42 +40,38 @@ It consists of two parts:-
 1.Encoder
 2.Decoder
 
-
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/autoencoders1.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/autoencoders1.png?raw=true" height=60% width=60% />
+</p> 
 
 👉🏻 *In simple words, AutoEncoder is an unsupervised Artificial Neural Network that attempts to encode the data by compressing it into the lower dimensions (bottleneck layer or code) and then decoding the data to reconstruct the original input. The bottleneck layer (or code) holds the compressed representation of the input data.*
 
 This model was just the basic model and it can be improved by doing hyperparameter tuning and making the encoder and decoder with DNN. The threshold was determined using a very simple method and it can be also changed for getting better and more accurate results. The criteria for determinig the threshold can make a lot of difference.
 
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/accuracy.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/accuracy.png?raw=true" height=80% width=80% />
+</p> 
 
 <h3></h3>
 
 <h2> Problem Statement 2️⃣: Expedia Hotel</h2>
 
-
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/expedia.png)
- 
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/expedia.png" height=55% width=55% />
+</p> 
 
 The [**Dataset**](https://www.kaggle.com/datasets/vijeetnigam26/expedia-hotel/versions/1) is related to tourism sector and is multivariate, dependent on time series. The main objective here is to check and observe the hotel prices from the data set of expedia hotel search. I have implemented different models here to check the prices hikes and lows. 
 
-
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/expedia_search.webp)
-
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/expedia_search.webp" height=80% width=80% />
+</p> 
 
 <h3> 📊 Techniques </h3>
 
 Based on this study, we have observed that Algorithms - **K-Means**, **3D Clusters**, **PCA**, **Isolation Forest**, and **Gaussian Distribution** have detected the high prices.
-
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/svm.png)
-<br>
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/svm.png" height=55% width=55% />
+</p> <br>
 
 But only **One Class SVM** has detected both high prices as well as low prices.
 
@@ -86,10 +81,9 @@ SVM is for novelty detection, a max-margin methods, i.e. they do not model a pro
 
 <h2> Problem Statement 3️⃣: Sensors</h2>
 
-
-
-  ![](https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/sensors1.webp)
-
+<p align="center">
+  <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/sensors1.webp" height=55% width=55% />
+</p> 
 
 Detect the outliers/anomalies in the experimental dataset. The dataset stores hourly counting series detected by sensors. These sensors count both people riding bikes and pedestrians. Separate volumes are tallied for each travel mode. Wires in a diamond formation in the concrete detect bikes and an infrared sensor mounted on a wooden post detects pedestrians.
 
