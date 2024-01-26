@@ -20,7 +20,7 @@
 - [Anomaly Detection: Expedia Hotel](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-expedia-hotel)
 - [Anomaly Detection: Sensors - VAR](https://www.kaggle.com/code/vijeetnigam26/anomaly-detection-sensors-var)
 
-<h2> Problem Statement 1️⃣: ECG</h2>
+<h2> Problem Statement 1: ECG</h2>
 
 **The objective of detecting anomalies in ECG signals consists of finding the irregular heart rates, heartbeats, and rhythms. To achieve this goal, an anomaly detection system must be able to find them on all heartbeat sequences; therefore, to obtain the essential metrics.**
 
@@ -54,7 +54,7 @@ This model was just the basic model and it can be improved by doing hyperparamet
 
 <h3></h3>
 
-<h2> Problem Statement 2️⃣: Expedia Hotel</h2>
+<h2> Problem Statement 2️: Expedia Hotel</h2>
 
 <p align="center">
   <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/expedia.png" height=55% width=55% />
@@ -79,7 +79,7 @@ But only **One Class SVM** has detected both high prices as well as low prices.
 
 SVM is for novelty detection, a max-margin methods, i.e. they do not model a probability distribution... The idea of novelty detection is to detect rare events, i.e. events that happen rarely, and hence, of which you have very little samples.
 
-<h2> Problem Statement 3️⃣: Sensors</h2>
+<h2> Problem Statement 3️: Sensors</h2>
 
 <p align="center">
   <img src="https://github.com/vijeetnigam26/Anomaly-Detection-in-Multivariate-Time-Series/blob/master/img/sensors1.webp" height=55% width=55% />
